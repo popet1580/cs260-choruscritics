@@ -1,5 +1,5 @@
 body{
-    background-color : #d4ebf2;
+    background-color : white;
 }
 
 a {
@@ -10,8 +10,8 @@ h1 {
   color: gray;
   font-size: 100px;
   text-align: center;
-  font-family: monospace;
-  font-variant: small-caps;
+  /*font-family: monospace;*/
+  /*font-variant: small-caps;*/
 }
 
 h2 {
@@ -20,38 +20,6 @@ h2 {
   text-align: center;
   font-family: monospace;
   font-variant: small-caps;
-}
-
-.text-info {
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 10% !important;
-  margin-top: 5%;
-  color: gray !important;
-  text-align: center;
-}
-
-.text-info-about {
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 10% !important;
-  margin-top: 5%;
-  color: gray !important;
-  text-align: center;
-}
-
-.image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.image-small {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
 }
 
 .footer {
@@ -64,78 +32,25 @@ h2 {
   text-align: center;
 }
 
-/*Color of active page title*/
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: white;
-}
-
-.powder {
-    color: #99badd;
-}
-
 .navbar-brand {
-  color: red !important;
+  color: #99badd !important;
   font-size: 25px !important;
-  font-family: monospace;
-  font-variant: small-caps;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color:  white;
+.menu-text {
+  color: black !important;
 }
 
-
-/* Image Grid */
-.portfolio {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-
-.item {
-  width: 100%;
-}
-
-.grid-item { width: 100%; }
-
-
-.reviews-container {
-  display: flex;
-  grid-rows: auto auto auto auto;
-  padding-bottom: 5% !important;
-  
-}
-
-.reviews-container .reviews-img {
-  margin-left: 25%;
-  margin-right: 2%;
-  width: 10%;
-  height: 10%;
-  border-color: black;
-  border: 3px solid black;
-  
-}
-
-.reviews-container .reviews-section {
-  display: flex;
-  flex-direction: column;
+.polaroid {
+  align-content: center;
   width: 40%;
-  border-color: black;
-  border: 3px solid black;
-  font-family: sans-serif;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.reviews-container .reviews-section .reviews-name {
-  background-color: white;
-  padding: 10px;
-  flex-grow: 1;
-  font-weight: bold;
-}
+.img {width: 100%}
 
-.reviews-container .reviews-section .reviews-price {
-  background-color: white;
-  padding: 10px;
-  flex-grow: 1;
-  
+.pic-container {
+  text-align: center;
+  padding: 10px 20px;
 }
