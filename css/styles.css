@@ -1,5 +1,6 @@
 body{
     background-color : white;
+    font-family: "Times New Roman", Times, serif;
 }
 
 a {
@@ -10,20 +11,21 @@ h1 {
   color: gray;
   font-size: 100px;
   text-align: center;
-  /*font-family: monospace;*/
-  /*font-variant: small-caps;*/
 }
 
 h2 {
   color: gray;
   font-size: 60px;
   text-align: center;
-  font-family: monospace;
   font-variant: small-caps;
 }
 
 .medium-font{
   font-size: 40px !important;
+}
+
+.menu-font{
+  font-size: 20px !important;
 }
 
 .footer {
@@ -41,8 +43,8 @@ h2 {
   font-size: 25px !important;
 }
 
-.menu-text {
-  color: black !important;
+.critic-bio {
+  font-size: 30px !important;
 }
 
 .polaroid {
