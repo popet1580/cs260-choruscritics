@@ -22,6 +22,10 @@ h2 {
   font-variant: small-caps;
 }
 
+.medium-font{
+  font-size: 40px !important;
+}
+
 .footer {
   position: fixed;
   left: 0;
@@ -42,15 +46,31 @@ h2 {
 }
 
 .polaroid {
-  align-content: center;
-  width: 40%;
+  margin: auto;
+  width: 25%;
+  align-content: center !important;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img {width: 100%}
+.polaroid > img {
+  width: 100%;
+}
 
 .pic-container {
-  text-align: center;
+  text-align: center !important;
   padding: 10px 20px;
+}
+
+.row {
+  content: "";
+  clear: both;
+}
+
+.left-margin {
+  margin-left: 20%;
+}
+
+.right-margin {
+  margin-right: 20%;
 }
