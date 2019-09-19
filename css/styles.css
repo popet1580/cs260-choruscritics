@@ -44,7 +44,7 @@ h2 {
 }
 
 .critic-bio {
-  font-size: 30px !important;
+  font-size: 20px !important;
 }
 
 .polaroid {
@@ -67,6 +67,7 @@ h2 {
 .row {
   content: "";
   clear: both;
+  padding-top: 15px;
 }
 
 .left-margin {
@@ -75,4 +76,8 @@ h2 {
 
 .right-margin {
   margin-right: 20%;
+}
+
+.bottom-margin {
+  margin-bottom: 10%
 }
