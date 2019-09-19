@@ -81,3 +81,51 @@ h2 {
 .bottom-margin {
   margin-bottom: 10%
 }
+
+.reviews-container {
+  display: flex;
+  grid-rows: auto auto auto auto;
+  padding-bottom: 5% !important;
+ 
+}
+
+.reviews-container .reviews-img {
+  margin-left: 25%;
+  margin-right: 2%;
+  width: 10%;
+  height: 10%;
+  border-color: black;
+  border: 3px solid black;
+ 
+}
+
+.reviews-container .reviews-section {
+  background-color: #b0adff;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border-color: black;
+  border: 3px solid black;
+  font-family: sans-serif;
+}
+
+.reviews-container .reviews-section .reviews-name {
+  background-color: #CFCFCF;
+  padding: 10px;
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+.reviews-container .reviews-section .reviews-content-bad {
+  background-color: #DF9898;
+  padding: 10px;
+  flex-grow: 1;
+ 
+}
+
+.reviews-container .reviews-section .reviews-content-good {
+  background-color: #98DF98;
+  padding: 10px;
+  flex-grow: 1;
+ 
+}
