@@ -7,6 +7,7 @@ a {
   color: yellow;
 }
 
+
 h1 {
   color: gray;
   font-size: 100px;
@@ -18,6 +19,10 @@ h2 {
   font-size: 60px;
   text-align: center;
   font-variant: small-caps;
+}
+
+.white-font {
+  color: white;
 }
 
 .medium-font{
@@ -135,4 +140,26 @@ h2 {
   padding: 10px;
   flex-grow: 1;
  
+}
+
+/* Container holding the image and the text */
+.img-text-container {
+  position: relative;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+.top-centered {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-centered {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
