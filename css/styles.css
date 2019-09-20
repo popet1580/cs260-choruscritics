@@ -48,6 +48,10 @@ h2 {
   font-size: 25px !important;
 }
 
+.active{
+      border-bottom:5px solid #99badd !important;
+  }
+
 .critic-bio {
   font-size: 20px !important;
 }
