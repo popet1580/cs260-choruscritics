@@ -92,7 +92,7 @@ h2 {
 }
 
 .reviews-container {
-  background-color: #B0ADFF;
+  background-color: #dbd9fa;
   display: flex;
   grid-rows: auto auto auto auto;
   margin-bottom: 10px !important;
