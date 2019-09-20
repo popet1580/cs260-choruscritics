@@ -150,6 +150,20 @@ h2 {
   color: white;
 }
 
+.top-left {
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  position: absolute;
+  top: 12%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
 .top-centered {
   position: absolute;
   top: 10%;
