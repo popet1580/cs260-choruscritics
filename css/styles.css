@@ -163,3 +163,10 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.bottom-right {
+  position: absolute;
+  bottom: 12%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
