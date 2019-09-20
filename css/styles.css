@@ -48,6 +48,10 @@ h2 {
   font-size: 25px !important;
 }
 
+.active{
+      border-bottom:5px solid #99badd !important;
+  }
+
 .critic-bio {
   font-size: 20px !important;
 }
@@ -114,7 +118,7 @@ h2 {
   margin: 5px;
   background-color: #b0adff;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   width: 90%;
   border-color: black;
   border: 3px solid black;
